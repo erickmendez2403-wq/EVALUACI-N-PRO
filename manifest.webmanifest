@@ -2,7 +2,7 @@
   "name": "OPERADORES PRO — Evaluación de desempeño",
   "short_name": "OPERADORES PRO",
   "description": "Registro y evaluación de operadores",
-  "start_url": "./index.html?version=3",
+  "start_url": "./index.html?version=4",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f2f5f9",
@@ -21,5 +21,5 @@
       "purpose": "any"
     }
   ],
-  "id": "./?version=3"
+  "id": "./?version=4"
 }
