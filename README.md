@@ -20,3 +20,10 @@ Sube **el contenido de esta carpeta** a la raíz del repositorio de GitHub. Acti
 - Distribución de personal por cargo, últimas evaluaciones y accesos directos.
 - Los datos se almacenan solo en el dispositivo; no hay sincronización entre equipos.
 - Para actualizar en GitHub Pages, reemplaza los archivos en la raíz del repositorio manteniendo `icons/`.
+
+
+## Ícono iPhone v2
+El sitio incluye `apple-touch-icon-v2.png` y enlaces actualizados para evitar que Safari reutilice la versión anterior. Tras actualizar GitHub Pages, abre el sitio en Safari, exporta un respaldo si tienes evaluaciones, elimina el acceso directo antiguo y vuelve a usar Compartir > Añadir a pantalla de inicio.
+
+## Logo e icono v3
+Nuevo icono corporativo incorporado en el encabezado, iconos PWA y apple-touch-icon-v3.png. Publica los archivos y luego instala nuevamente desde Safari (respalda datos locales primero).
