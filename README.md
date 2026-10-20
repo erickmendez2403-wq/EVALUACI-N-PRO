@@ -1,18 +1,22 @@
-# OPERADORES PRO — Temporada 2026–2027
+# OPERADORES PRO — Edición corporativa
 
-Aplicación web instalable para Windows (Edge/Chrome) e iPhone (Safari). Se publica desde GitHub Pages y, tras la primera carga, permite el uso sin conexión.
+Aplicación web instalable para gestión de operadores y evaluaciones de desempeño.
 
-## Funciones
-- 12 operadores iniciales, gestión de operadores, edición, desactivación y eliminación de quienes no tengan evaluaciones
-- Evaluación por cargo con seis competencias, barras de 1–5, compromiso y responsabilidad
-- Nota mínima de aprobación de 4,0/5
-- Historial e informes individuales guardables como PDF mediante **Imprimir → Guardar como PDF**
-- Ajustes de apariencia con seis temas de colores dobles, colores personalizados y restauración
-- Respaldo e importación JSON
+## Incluye
+- Nueva portada institucional y logo geométrico de evaluación.
+- 12 operadores iniciales; agregar, editar y eliminar operadores sin historial.
+- Evaluaciones de 1 a 5, aprobación desde 4,0, compromisos, historial e informe para guardar en PDF.
+- Temas de doble color configurables.
+- Respaldo JSON local, sin sincronización entre dispositivos.
 
-## Publicar en GitHub Pages
-1. Descomprimir el ZIP. Subir **el contenido** de esta carpeta a la raíz del repositorio. Deben quedar `index.html`, `manifest.webmanifest`, `sw.js` y `icons/` en la raíz.
-2. Repositorio → Settings → Pages → Deploy from a branch → main → / (root) → Save.
-3. Abrir la URL publicada bajo HTTPS. Para instalar en iPhone: Safari → Compartir → Añadir a pantalla de inicio. En Windows: Edge/Chrome → Instalar aplicación.
+## Publicación
+Sube **el contenido de esta carpeta** a la raíz del repositorio de GitHub. Activa Settings → Pages → Deploy from a branch → main → root.
 
-**Privacidad:** La información queda en `localStorage` del dispositivo/navegador. No se sincroniza entre equipos; exporta respaldos con regularidad. No subas registros reales, respaldos ni PDFs personales al repositorio GitHub. La impresión debe seleccionarse como «Guardar como PDF», no se crea el PDF en un servidor.
+**Privacidad:** no publiques evaluaciones ni respaldos de trabajadores en GitHub. Los datos se almacenan localmente en cada navegador. Para generar PDF usa imprimir → guardar como PDF.
+
+
+## Panel de supervisión renovado
+- Portada adaptable a móvil y escritorio con indicadores reales (operadores registrados, evaluaciones, aprobados y seguimiento).
+- Distribución de personal por cargo, últimas evaluaciones y accesos directos.
+- Los datos se almacenan solo en el dispositivo; no hay sincronización entre equipos.
+- Para actualizar en GitHub Pages, reemplaza los archivos en la raíz del repositorio manteniendo `icons/`.
